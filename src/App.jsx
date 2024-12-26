@@ -20,7 +20,7 @@ const passwordGenrater = useCallback(() =>{
 let char = Math.floor(Math.random() * str.length)
  pass += str.charAt(char)
     }
-
+console.log("hello")
     setPassword(pass)
   
   }
